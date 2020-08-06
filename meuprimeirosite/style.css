@@ -1,0 +1,134 @@
+html, body{
+    margin: 0;
+    background-color: white;
+    color:   #5FD3b3;
+    font-family: 'Montserrat';
+}
+/*Menu*/
+
+header{
+    background-color: rgb(104, 11, 11);
+    color: turquoise;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+li{
+    float: left;
+    padding:20px 29px 20px 39px;
+}
+li:hover{
+    background-color:white;
+}
+.logo{
+    width: 125px;
+    padding: 0px 0px 0px 0px;
+    margin: -25px 0px 0px 55px;
+    position: absolute;
+}
+.menu{
+    float: right;
+    list-style: none;
+    margin-left: 10%;
+    margin-top: 8px;
+}
+a:visited{
+    color: #5FD3b3;
+}
+
+
+
+/* -----CAPA----- */
+.capa{
+    border: dotted 2px red;
+    background: url(visual/fundo1.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 25%;
+    font-size: 50px;
+    color: white;
+    height:100%;
+}
+.subtitulo{
+    font-size: 25px;
+}
+#parc{
+    font-size: 20px;
+    color: white;
+    border-radius: 50px 50px;
+}
+#parc:hover{
+    background-color: tomato;
+}
+.fundo_titulo{
+    border-radius: 10px 20px;
+    background-color: tomato;
+    color: white;
+    border: solid 2px red;
+}
+
+/*-----Seção-----*/
+section{
+    float: left;
+}
+.centro{
+    text-align: center;
+    font-size: 25px;
+}
+.coluna{
+    float: left;
+    position: relative;
+    padding: 0 5%;
+    width: 40%;
+    text-align: justify;
+
+/*-----Seção 2-----*/
+}
+.ajuste{
+    margin:0 0 5% 0;
+}
+.descricao{
+    text-align: center;
+    width: 23%;
+    font-size: 15px;
+}
+.resultado{
+    text-align: center;
+    font-size: 20px;
+}
+
+/*-----Seção 3-----*/
+.topico{
+    text-align: center;
+    width: 1124px;
+}
+.imagem{
+    float: left;
+    padding: 2%;
+    position: relative;
+    width: 29%;
+}
+.alt{
+    width: 300px;
+    height: 200px;
+}
+.upper{
+    text-transform: uppercase;
+}
+
+/*RODAPÉ*/
+footer{
+    float: left;
+    background-color: rgb(67, 70, 70);
+    width: 100%;
+    font-style: bold;
+}
+
+/*Cores
+    35D3A7
+    00A779
+    5FD3b3
+    FF5C00
+*/
